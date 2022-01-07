@@ -5,8 +5,9 @@ public class TipoString {
 		System.out.println("Hola gente!".charAt(3)); // chamar funcionalidades ler letras especificas por indice.
 
 		String s = "Boa Tarde";
-		s = s.toUpperCase();
+		
 		s = "Bom Dia";
+		s = s.toUpperCase();
 		System.out.println(s.concat(" !!"));
 		System.out.println(s + "!!!");
 		System.out.println(s.startsWith("Boa"));
