@@ -17,11 +17,17 @@ public class Console {
 		
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.print("Digite algo: ");
-		String nome = entrada.nextLine();
-		System.out.print("Digite algo: ");
+		System.out.print("Digite um animal: ");
 		String nome = entrada.nextLine();
 		
-		System.out.println("Algo é : " + nome);
+		System.out.print("Digite sua cor: ");
+		String nome2 = entrada.nextLine();
+		
+		System.out.print("Digite seu genero: ");
+		String genero = entrada.nextLine();
+		
+		System.out.printf("Sua escolha foi: %s da cor: %s do genero: %s", nome, nome2, genero);
+		
+		entrada.close(); //fechar o scanner, xq ocupa recursos da maquina
 	}
 }
