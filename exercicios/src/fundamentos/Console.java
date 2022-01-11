@@ -26,7 +26,13 @@ public class Console {
 		System.out.print("Digite seu genero: ");
 		String genero = entrada.nextLine();
 		
-		System.out.printf("Sua escolha foi: %s da cor: %s do genero: %s", nome, nome2, genero);
+		System.out.print("sua idade: ");
+		int idade = entrada.nextInt();
+		
+		System.out.printf("Sua escolha foi: %s da cor: %s do genero: %s, e a sua idade atual é de : %d",
+				nome, nome2, genero, idade);
+				
+				
 		
 		entrada.close(); //fechar o scanner, xq ocupa recursos da maquina
 	}
