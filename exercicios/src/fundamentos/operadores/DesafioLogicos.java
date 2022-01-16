@@ -37,7 +37,7 @@ public class DesafioLogicos {
 		} else if (trab1 || trab2) {
 			System.out.println(tvpequena + sorvetinho);
 		} else {
-			System.out.println("Infelizmente não pude comprar TV, mas" + sorvetinho);
+			System.out.println("Infelizmente não pude comprar TV, ficamos em casa! ");
 		}
 
 		entrada.close();
