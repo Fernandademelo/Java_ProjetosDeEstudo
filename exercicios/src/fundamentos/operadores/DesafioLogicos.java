@@ -42,5 +42,22 @@ public class DesafioLogicos {
 
 		entrada.close();
 
+		System.out.println("___RESOLUÇÃO DO PROFESSOR___");
+
+		boolean traabalho1 = true;   //aqui troca para ver os resultados
+		boolean traabalho2 = true;
+		
+		
+		boolean comprouTV50 = traabalho1 && traabalho2;
+		boolean comprouTV32 = traabalho1 ^ traabalho2;
+		boolean comprouSorvete = traabalho1 || traabalho2;
+		boolean maisSaudavel = !comprouSorvete;
+		
+		System.out.println("Comprou TV 50\"?" + comprouTV50);
+		System.out.println("Comprou TV 32\"?" + comprouTV32);
+		System.out.println("Comprou TV 32\"Sorvete?" + comprouSorvete);
+
+			//OPERADOR UNARIO
+		System.out.println("Mais Saudavel? " + maisSaudavel);
 	}
 }
