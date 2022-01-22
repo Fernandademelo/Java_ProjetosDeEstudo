@@ -12,7 +12,7 @@ public class Unarios {
 		++b; // b = b + 1;
 		--b; //b= b - 1;
 		
-		System.out.println(++a == b--); // por preceddencia, primeiro se incrementa, logo compara e por ultima o postfixed.
+		System.out.println(++a == b--); // por precedencia, primeiro se incrementa, logo compara e por ultima o postfixed.
 		System.out.println(a == b); 
 		System.out.println(a);
 		System.out.println(b);
