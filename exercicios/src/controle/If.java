@@ -18,7 +18,9 @@ public class If {
 			System.out.println("Recuperação");
 		}
 		
-		if(media < 4.5 && media >= 0) {
+		boolean criterioReprovacaoAtingido = media < 4.5 && media >= 0;
+				
+		if(criterioReprovacaoAtingido) {
 			System.out.println("Reprovado");
 		}
 
