@@ -6,7 +6,7 @@ public class DoWhile {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		
-		String texto = "por favor"; // ele vai perguntar igualmente, o comando do acontece pelo menos uma vez
+		String texto = ""; // ele vai perguntar igualmente, o comando do acontece pelo menos uma vez
 		
 		do {
 			System.out.println("Você precisa falar as palavras mágicas...");
