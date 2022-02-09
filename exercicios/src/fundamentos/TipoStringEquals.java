@@ -16,7 +16,7 @@ public class TipoStringEquals {
 		//System.out.println("2" == s2);
 		System.out.println("2".equals(s2.trim())); //equals sempre para ver o valor de dentro da String, e o trim para fazer um trim nos espaços q o usuario colcocar 
 		
-		
+		entrada.close();
 		
 	
 	}
