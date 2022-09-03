@@ -1,4 +1,7 @@
 package fundamentos;
+
+import java.security.PublicKey;
+
 /**
  * Essa classe representa.. JAVADOC
  * 
@@ -9,10 +12,7 @@ package fundamentos;
  */
 
 public class PrimeiroPrograma {
-// uma sentança sempre termina com ;
 	public static void main(String[] args) {
-		System.out.println("Hola Mundo!");
-		System.out.println("Oi Mundo!");
-
+		System.out.println("Olá de novo, Mundo!");
 	}
 }
