@@ -11,6 +11,9 @@ for(int i = 1; i <=5; i++) {
 	valor += "#";
 			}
 
+
+//sem valor numerico
+
 	for(String v = "#"; !v.equals("######"); v += "#") {
 		System.out.println(v);
 	}
