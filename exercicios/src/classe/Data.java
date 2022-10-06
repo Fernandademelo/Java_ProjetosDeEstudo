@@ -21,5 +21,7 @@ public class Data {
 	//void imprimirDataForm() {
 	//System.out.print(onterDataFormatada);
 	//um método usando o outro, sem problemas
+	//nao funciona em apps, pq só funciona nos terminal.
+	//se retorna string, da pra suar em web, desktop, celular, mais flexivel.
 }
 }

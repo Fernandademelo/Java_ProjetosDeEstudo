@@ -11,4 +11,5 @@
     <fullyQualifiedTypeName name="javax.tools.Diagnostic"/>
     <fullyQualifiedTypeName name="java.lang.OutOfMemoryError"/>
     <fullyQualifiedTypeName name="classe.Data"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
