@@ -6,6 +6,19 @@ public class Produto {
 	double preco;
 	double desconto;
 	
+	Produto(String nomeInicial, double precoInicial, 
+			double descontoInicial){
+		nome = nomeInicial;
+		preco = precoInicial;
+		desconto = descontoInicial;
+		
+	}
+	
+	Produto(){
+		//se coloco assim o construtor padrao, posso utilizar a criacao de um objeto sem necessidade de parametros!
+	}
+	
+	
 	double precoComDesconto() {
 		return preco * (1 - desconto);
 		
