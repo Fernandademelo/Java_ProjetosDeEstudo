@@ -14,7 +14,7 @@ public class DataTeste {
 
 
 		//utilixando o metodo:
-//		System.out.printf(d1.obterDataFormatada());
+		System.out.printf(d1.obterDataFormatada());
 		
 		System.out.printf(d2.obterDataFormatada());
 		
