@@ -1,2 +1,2 @@
-# Java-2021-COMPLETO--Projetos-
-Meus exercicios do curso de Java
+Repositório com alguns exercícios de estudo de Java.
+/usando EclipseIDE
