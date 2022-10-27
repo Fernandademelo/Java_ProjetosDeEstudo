@@ -10,6 +10,8 @@
     <fullyQualifiedTypeName name="classe.Produto"/>
     <fullyQualifiedTypeName name="javax.tools.Diagnostic"/>
     <fullyQualifiedTypeName name="java.lang.OutOfMemoryError"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="classe.Data"/>
+    <fullyQualifiedTypeName name="classe.AreaCirc"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.graphbuilderconf.InvocationPlugins.InvocationPluginReceiver"/>
 </qualifiedTypeNameHistroy>

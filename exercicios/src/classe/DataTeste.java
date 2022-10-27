@@ -13,7 +13,7 @@ public class DataTeste {
 		var d2 = new Data(31,12,2020);
 
 
-		//utilixando o metodo:
+		//utilizando o metodo:
 		System.out.printf(d1.obterDataFormatada());
 		
 		System.out.printf(d2.obterDataFormatada());
