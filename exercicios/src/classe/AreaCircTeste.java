@@ -16,7 +16,8 @@ public class AreaCircTeste {
 
         //AreaCirc.pi = 25;
 
-        System.out.println(a2.area());
+        //nao preciasando criar instancia para acessar atributo ou metodo de classe
+        System.out.println(AreaCirc.area(100));
         System.out.println(a1.area());
         System.out.println(AreaCirc.PI);
         System.out.println(Math.PI);

@@ -14,4 +14,7 @@ public class AreaCirc {
 		return PI * Math.pow(raio, 2); //math é um método estatico, pertence a classe diretamente
 		
 	}
+		static double area(double raio){
+		return PI * Math.pow(raio,2);
+		}
 }
